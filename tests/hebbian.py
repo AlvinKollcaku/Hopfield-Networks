@@ -1,3 +1,6 @@
+# Hopfield Networks - Developed by Alvin Kollçaku (2025)
+# Licensed under the GNU General Public License v3.0
+
 import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader

@@ -1,7 +1,8 @@
+# Hopfield Networks - Developed by Alvin Kollçaku (2025)
+# Licensed under the GNU General Public License v3.0
+
 import matplotlib.pyplot as plt
 
-# Assuming 'images' contains your MNIST data as a numpy array (60000, 28, 28)
-# If not already loaded:
 import struct
 import numpy as np
 
@@ -15,7 +16,6 @@ images = load_mnist_images("C:\\Users\\alvin\\OneDrive\\Desktop\\Bachelor_Thesis
 print(images.shape)  # Output: (60000, 28, 28)
 
 
-# Plot the first 10 images
 plt.figure(figsize=(10, 1))
 for i in range(10):
     plt.subplot(1, 10, i+1)
